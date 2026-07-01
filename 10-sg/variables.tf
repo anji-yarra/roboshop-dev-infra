@@ -9,7 +9,7 @@ variable "environment" {
 variable "sg_name" {
     type        = list
     default     = [
-        "mangodb", "redis", "mysql", "rabbitmq",
+        "mongodb", "redis", "mysql", "rabbitmq",
         "catalogue", "user", "cart", "shipping", "payment", 
         "backend_alb",
         "frontend",
